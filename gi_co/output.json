@@ -1,0 +1,98 @@
+{
+    "data": [
+        {
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "age": "200",
+            "status": {
+                "errors": {
+                    "age": ["Age should be between 0 and 120!"]
+                }
+            }
+        },
+        {
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "age": "28",
+            "status": "created"
+        },
+        {
+            "name": "Jane Smith",
+            "email": "jane.smith@example.com",
+            "age": "34",
+            "status": "created"
+        },
+        {
+            "name": "Alice Johnson",
+            "email": "alice.johnson@example.com",
+            "age": "22",
+            "status": "created"
+        },
+        {
+            "name": "Bob Brown",
+            "email": "bob.brown@example.com",
+            "age": "45",
+            "status": "created"
+        },
+        {
+            "name": "Alice Johnson",
+            "email": "alice.johnson@example.com",
+            "age": "22",
+            "status": {
+                "errors": {
+                    "email": ["user data with this email already exists."]
+                }
+            }
+        },
+        {
+            "name": "Charlie Davis",
+            "email": "charlie.davis@example.com",
+            "age": "30",
+            "status": "created"
+        },
+        {
+            "name": "Emily Wilson",
+            "email": "emily.wilson@example.com",
+            "age": "27",
+            "status": "created"
+        },
+        {
+            "name": "Frank Thomas",
+            "email": "frank.thomas@example.com",
+            "age": "40",
+            "status": "created"
+        },
+        {
+            "name": "Grace Lee",
+            "email": "grace.lee@example.com",
+            "age": "23",
+            "status": "created"
+        },
+        {
+            "name": "Hannah White",
+            "email": "hannah.white@example.com",
+            "age": "29",
+            "status": "created"
+        },
+        {
+            "name": " ",
+            "email": "hannah.white@example.com",
+            "age": "29",
+            "status": {
+                "errors": {
+                    "name": ["This field may not be blank."],
+                    "email": ["user data with this email already exists."]
+                }
+            }
+        },
+        {
+            "name": "Ian Black",
+            "email": "ian.black@example.com",
+            "age": "35",
+            "status": "created"
+        }
+    ],
+    "rejected": 3,
+    "success": 10,
+    "total": 13
+}
